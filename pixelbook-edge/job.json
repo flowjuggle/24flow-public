@@ -1,8 +1,8 @@
 {
+  "job_id": "pixelbook-edge-heartbeat-v2",
+  "public_payload": true,
   "schema": 1,
-  "job_id": "pixelbook-edge-heartbeat-public-v1",
-  "type": "heartbeat",
-  "targets": [],
   "source": "RINGMASTER",
-  "public_payload": true
+  "targets": [],
+  "type": "heartbeat"
 }
