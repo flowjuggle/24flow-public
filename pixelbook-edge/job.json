@@ -1,8 +1,17 @@
 {
-  "job_id": "pixelbook-edge-heartbeat-v2",
+  "job_id": "rm-web-20261006T144057Z-3991021a",
   "public_payload": true,
   "schema": 1,
   "source": "RINGMASTER",
-  "targets": [],
-  "type": "heartbeat"
+  "targets": [
+    "https://flowjuggle.com",
+    "https://www.flowjuggle.com",
+    "https://walkman.live",
+    "https://ptiv.live",
+    "https://nybeats.shop",
+    "https://jugglingballs.info",
+    "https://flowersticks.live",
+    "https://jugglingclubs.com"
+  ],
+  "type": "http_probe"
 }
