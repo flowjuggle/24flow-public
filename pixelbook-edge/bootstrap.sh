@@ -91,7 +91,7 @@ PY
 
 post_envelope() {
   local f="$1"
-  if curl -fsS --max-time 15 --retry 1 -H 'Content-Type: application/json' --data-binary "@$f" "$PUBLIC_RECEIPT_URL" >/dev/null 2>&1; then
+  if curl -fsS --max-time 4 -H 'Content-Type: application/json' --data-binary "@$f" "$PUBLIC_RECEIPT_URL" >/dev/null 2>&1; then
     printf '%s\n' public_https > "$STATE/last-receipt-transport.txt"
     return 0
   fi
